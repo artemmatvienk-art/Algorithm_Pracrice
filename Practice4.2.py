@@ -1,0 +1,11 @@
+number = int(input("Введіть число: "))
+
+print("Парне:", number % 2 == 0)
+print("Непарне:", number % 2 != 0)
+print("Степінь двійки:", number > 0 and (number & (number - 1)) == 0)
+print("Останній біт:", number & -number)
+print("Кількість одиниць:", bin(abs(number)).count("1"))
+print("Помножене на 2:", number << 1)
+print("Поділене на 2:", number >> 1)
+print("Молодший біт:", number & 1)
+print("Інверсія:", ~number)
