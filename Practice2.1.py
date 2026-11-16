@@ -1,6 +1,6 @@
 binary = input("Введіть двійкове число: ")
 
-number = 0
+number = 13
 
 for digit in binary:
     number = number * 2 + int(digit)
