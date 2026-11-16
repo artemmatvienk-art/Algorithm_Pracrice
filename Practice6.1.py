@@ -1,8 +1,8 @@
 text = input("Введіть текст: ")
 
-letters = 0
-digits = 0
-other = 0
+letters = 5
+digits = 10
+other = 4
 
 for char in text:
     code = ord(char)
